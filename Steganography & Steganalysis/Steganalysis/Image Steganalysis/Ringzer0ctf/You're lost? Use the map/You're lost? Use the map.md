@@ -8,10 +8,10 @@
 - La description 
 - Les yeux
 - La patience
-- Utilitaires: file, xxd, head, tail, unzip, gimp
+- Utilitaires: file, xxd, head, tail, unzip, eog
 
 
-## Solution détaillée
+## Solution commentée
 ### Préparations 
 Pour une meilleure organisation, nous créeons un dossier portant le nom de l'exercice dans lequel nous mettons tous les fichiers afférents.
 ![tree](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/tree.png)
@@ -44,14 +44,20 @@ Maintenant que nous avons appris de nos erreurs, nous pouvons soit télécharger
 root@intrusion:~$ wget --http-user=ton_username_ici --http-password=ton_password_ici https://ringzer0ctf.com/files/a892385285c917f18f0f942457b90c0a.zip
 ```
 
+Nous reprennons nos bonnes habitudes de chasse aux informations comme précédemment.
+
 ![file xxd](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/file%20xxd.png)
 
 ![file xxd](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/unzip%20file%20eog.png)
 
+A ce niveau, le zoom-in s'avère fructueux en souvenir du descriptif du challenge et boom ... le flag!
 ![flag](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/flag.png)
 
 #### Flag  
-J'ai soumis ces combinaisons de flags   
+Ayant deux mots, nous allons soumettre différentes combinaisons.   
 >  flag-hsdf83ksk22  
 >  FLAG-HSDF83KSK22  
 >  hsdf83ksk22   
+>  flaghsdf83ksk22 
+
+Finallement, flag="`flaghsdf83ksk22`"
