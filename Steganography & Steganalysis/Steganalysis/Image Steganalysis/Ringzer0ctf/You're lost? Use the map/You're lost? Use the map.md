@@ -44,7 +44,11 @@ Maintenant que nous avons apris de nos erreurs, nous pouvons soit téléchargé 
 ```console
 root@intrusion:~$ wget --http-user=USERNAME --http-password=PASSWORD http://SOMETURLTOFILE
 ```
+![file xxd](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/file%20xxd.png)
 
+![file xxd](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/unzip%20file%20eog.png)
+
+![flag](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/flag.png)
 
 > Flag  
 J'ai soumis ces combinaisons de flags  
