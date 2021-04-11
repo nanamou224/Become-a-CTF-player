@@ -19,7 +19,7 @@
 Pour une meilleure organisation, nous créeons un dossier portant le nom de l'exercice dans lequel nous mettons tous les fichiers afférents.
 
 
-### 1ère tentative
+### __1ère tentative__
 On nous propose de télécharger le fichier joint que je m'empresse de faire avec l'outil wget.
 
 Dans le monde Unix/Linux, la notion d'extension n'existe "presque" pas. Le type d'un fichier est uniquement déterminé par son 'magic number'.
@@ -40,7 +40,7 @@ Nous avons pris ce râteau parce que le fichier .zip à télécharger est placé
 Le concepteur de l'exercice a d'ailleurs été gentil de nous laisser un message clair à ce propos. D'où la deuxième tentative.
 
 
-### 2ème tentative
+### __2ème tentative__
 Maintenant que nous avons apris de nos erreurs, nous pouvons soit téléchargé directement en cliquant sur le bouton proposé soit utilisé l'outil wget comme suit:
 ```console
 root@intrusion:~$ wget --http-user=USERNAME --http-password=PASSWORD http://SOMETURLTOFILE
@@ -49,7 +49,7 @@ foo
 
 
 > Flag
-J'ai soumis ces combinaisons de flags
-flag-hsdf83ksk22 
-FLAG-HSDF83KSK22
-hsdf83ksk22 
+J'ai soumis ces combinaisons de flags  
+flag-hsdf83ksk22  
+FLAG-HSDF83KSK22  
+hsdf83ksk22   
