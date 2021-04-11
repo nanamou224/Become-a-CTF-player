@@ -14,10 +14,11 @@
 ## Solution détaillée
 ### Préparations 
 Pour une meilleure organisation, nous créeons un dossier portant le nom de l'exercice dans lequel nous mettons tous les fichiers afférents.
-
+![tree](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/tree.png)
 
 ### __1ère tentative__
 On nous propose de télécharger le fichier joint que je m'empresse de faire avec l'outil wget.
+
 
 
 Dans le monde Unix/Linux, la notion d'extension n'existe "presque" pas. Le type d'un fichier est uniquement déterminé par son 'magic number'.
@@ -45,7 +46,7 @@ root@intrusion:~$ wget --http-user=USERNAME --http-password=PASSWORD http://SOME
 ```
 
 
-> Flag
+> Flag  
 J'ai soumis ces combinaisons de flags  
 flag-hsdf83ksk22  
 FLAG-HSDF83KSK22  
