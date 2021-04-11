@@ -34,7 +34,7 @@ Nous avons en face de nous une suite binaire qui semble être un message comme l
 Ce message binaire converti en texte ASCII par l'outil en ligne https://cryptii.com/pipes/binary-to-text nous dis que nous faisons fausse route.  
 
 
-** Prise de recul / Conclusion **: 
+**Prise de recul** / **Conclusion**: 
 Nous avons pris ce râteau parce que le fichier .zip à télécharger est placé derrière une protection d'authentifiction. 
 Le concepteur de l'exercice a d'ailleurs été gentil de nous laisser un message clair à ce propos. D'où la deuxième tentative.
 
