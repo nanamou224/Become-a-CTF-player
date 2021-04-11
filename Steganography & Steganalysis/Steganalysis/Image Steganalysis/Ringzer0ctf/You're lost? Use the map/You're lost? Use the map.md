@@ -32,6 +32,8 @@ Cette analyse montre que le fichier n'est pas une archive mais plutôt un texte 
 
 Nous avons en face de nous une suite binaire qui semble être un message comme le laisse croire la classe "message" de la balise div. 
 Ce message binaire converti en texte ASCII par l'outil en ligne https://cryptii.com/pipes/binary-to-text nous dis que nous faisons fausse route.  
+![binary2ascii](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/binary2ascii.png)
+
 
 
 **Prise de recul** / **Conclusion**: 
