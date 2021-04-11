@@ -18,6 +18,25 @@ Pour une meilleure organisation, nous créeons un dossier portant le nom de l'ex
 
 ### __1ère tentative__
 On nous propose de télécharger le fichier joint que je m'empresse de faire avec l'outil wget.
+```console
+┌──(root💀intrusion)-[~/Desktop/CTF/Ringzer0ctf/You're lost? Use the map]
+└─# wget https://ringzer0ctf.com/challenges/118
+--2021-04-11 14:16:50--  https://ringzer0ctf.com/challenges/118
+Resolving ringzer0ctf.com (ringzer0ctf.com)... 195.157.4.130, 195.157.4.140, 212.82.233.130, ...
+Connecting to ringzer0ctf.com (ringzer0ctf.com)|195.157.4.130|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /login [following]
+--2021-04-11 14:16:51--  https://ringzer0ctf.com/login
+Reusing existing connection to ringzer0ctf.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 23645 (23K) [text/html]
+Saving to: ‘118’
+
+118                        100%[=======================================>]  23.09K  --.-KB/s    in 0.003s  
+
+2021-04-11 14:16:51 (7.53 MB/s) - ‘118’ saved [23645/23645]
+
+```
 
 Dans le monde Unix/Linux, la notion d'extension n'existe "presque" pas. Le type d'un fichier est uniquement déterminé par son 'magic number'.
 De ce fait, bien que l'extension soit ici .zip, il se pourrait qu'il n'en soit pas un en réalité. Je vais donc à la pêche aux infos.
@@ -41,7 +60,6 @@ Le concepteur de l'exercice a d'ailleurs été gentil de nous laisser un message
 Maintenant que nous avons apris de nos erreurs, nous pouvons soit téléchargé directement en cliquant sur le bouton proposé soit utilisé l'outil wget comme suit:
 ```console
 root@intrusion:~$ wget --http-user=USERNAME --http-password=PASSWORD http://SOMETURLTOFILE
-foo
 ```
 
 
