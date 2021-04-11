@@ -8,10 +8,7 @@
 - La description 
 - Les yeux
 - La patience
-- file
-- xxd - head - tail
-- unzip
-- gimp
+- Utilitaires: file, xxd, head, tail, unzip, gimp
 
 
 ## Solution détaillée
