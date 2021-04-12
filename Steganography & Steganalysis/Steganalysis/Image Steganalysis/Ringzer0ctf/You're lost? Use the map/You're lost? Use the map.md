@@ -34,8 +34,8 @@ Ce message binaire converti en texte ASCII par l'outil en ligne https://cryptii.
 
 
 **Prise de recul** / **Conclusion**: 
-Nous avons pris ce râteau parce que le fichier .zip à télécharger est placé derrière une protection d'authentifiction. 
-Le concepteur de l'exercice a d'ailleurs été gentil de nous laisser un message clair à ce propos. D'où la deuxième tentative.  
+Nous avons pris ce râteau parce que le fichier .zip à télécharger est placé derrière une protection d'authentifiction. Cela fait référence notamment à deux menaces du [Top 10 OWASP](https://owasp.org/www-project-top-ten/) à savoir `Sensitive Data Exposure` et `Broken Access Control`. 
+Il est très rare que les concepteurs de CTF face attention à ces menaces, donc félicitations à Ringzer0ctf et au concepteur du challenge (Mr.Un1k0d3r) qui nous a d'ailleurs laissé un message clair à ce propos. D'où notre deuxième tentative.  
 
 
 
