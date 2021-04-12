@@ -3,6 +3,7 @@
 - Titre: You're lost? Use the map
 - Description:
 - [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/a892385285c917f18f0f942457b90c0a.zip)
+- Niveau de difficulté: 101
 
 
 ## Outils et références utilisées
