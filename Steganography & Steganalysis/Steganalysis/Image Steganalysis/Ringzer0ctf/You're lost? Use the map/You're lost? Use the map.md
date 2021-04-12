@@ -13,7 +13,7 @@
 
 ## Solution commentée
 ### Préparations 
-Pour une meilleure organisation, nous créeons un dossier portant le nom de l'exercice dans lequel nous mettons tous les fichiers afférents.
+Pour une meilleure organisation, nous créeons un repertoire portant le nom de l'exercice dans lequel nous mettons tous les fichiers afférents.
 ![tree](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/tree.png)
 
 ### __1ère tentative__
