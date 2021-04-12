@@ -34,9 +34,8 @@ Ce message binaire converti en texte ASCII par l'outil en ligne https://cryptii.
 
 
 **Prise de recul** / **Conclusion**: 
-Nous avons pris ce râteau parce que le fichier .zip à télécharger est placé derrière une protection d'authentifiction. Cela fait référence notamment à trois menaces du [Top 10 OWASP 2017](https://owasp.org/www-project-top-ten/) à savoir `A3 - Sensitive Data Exposure`, `A5 - Broken Access Control` et `A6 - Security misconfiguration`.
-Il est très rare que les concepteurs de CTF fassent attention à ces menaces, donc félicitons comme il se doit Ringzer0ctf et le concepteur du challenge (`Mr.Un1k0d3r`) qui nous a d'ailleurs laissé un message clair à ce propos. D'où notre deuxième tentative.  
-
+Le fichier .zip à télécharger est placé derrière une protection d'authentifiction. Nous devrions donc utiliser wget en conséquence. D'où ce râteau !  
+Il est très rare que les concepteurs de CTF fassent attention aux trois menaces notoires du [Top 10 OWASP 2017](https://owasp.org/www-project-top-ten/) liée à cela, à savoir: `A3 - Sensitive Data Exposure`, `A5 - Broken Access Control` et `A6 - Security misconfiguration`. Alors, félicitons comme il se doit Ringzer0ctf et le concepteur du challenge (`Mr.Un1k0d3r`) qui nous a d'ailleurs laissé un message clair à ce propos.  
 
 
 ### __2ème tentative__
