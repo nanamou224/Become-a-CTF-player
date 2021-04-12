@@ -3,6 +3,7 @@
 - Titre: Gunnm
 - Description: Une image pour commencer  
 - [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/ch1.png)
+- Niveau de difficulté: 101
 
 
 ## Outils et références utilisées
@@ -27,19 +28,24 @@ De ce fait, bien que l'extension soit ici .zip, il se pourrait qu'il n'en soit p
 ![file xxd head tail](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/file%20xxd%20head%20tail.png)
 
 
-A ce niveau, le zoom-in s'avère fructueux en souvenir du descriptif du challenge [`Gunnm`](https://en.wikipedia.org/wiki/Battle_Angel_Alita) qui est une série qui se déroule dans un futur post-apocalyptique et se concentre sur le personnage Alita et boom ... le flag!
+A ce niveau, le zoom-in s'avère fructueux en souvenir du descriptif du challenge [`Gunnm`](https://en.wikipedia.org/wiki/Battle_Angel_Alita) qui est une série qui se déroule dans un **futur post-apocalyptique et se concentre sur le personnage Alita** (comme pour dire qu'un zoom-in suffirait!) et boom ... le flag!
 ![flag](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/flag.png)
 
-**Prise de recul** : 
-1- Nous avons pu télécharger le fichier du challenge avec wget sans s'authentifier
-2- On a pu se balader un tout petit peu sur le serveur (IDOR)
+
+#### Flag    
+Ayant deux mots, nous allons soumettre différentes combinaisons.    
+>  PASS=TOTORO   
+>  pass=totoro   
+>  TOTORO  
+
+Finalement, flag="`TOTORO`"  
 
 
+**Prise de recul** : En résolvant ce challenge, nous remarquons deux choses:  
+1- Nous avons pu télécharger le fichier .png du challenge avec wget sans s'authentifier. Cette erreur de sécurité se rapporte aux menaces du [Top 10 OWASP 2017](https://owasp.org/www-project-top-ten/) suivantes: `A3 - Sensitive Data Exposure`, `A5 - Broken Access Control` et `A6 - Security misconfiguration`  
+2- Nous pouvons nous balader sur le serveur et avoir accès aux fichiers des autres challenges. Cette erreur de sécurité se rapporte aux menaces du [Top 10 OWASP 2013](https://owasp.org/www-pdf-archive/OWASP_Top_10_-_2013.pdf) suivantes: `A4 - Insecure Direct Object References` et `A7 - Missing Function Level Access Control` qui sont fusionneés en `A5 - Broken Access Control` dans le [Top 10 OWASP 2017](https://owasp.org/www-project-top-ten/)
 
-#### Flag  
-Ayant deux mots, nous allons soumettre différentes combinaisons.   
->  PASS=TOTORO  
->  pass=totoro  
->  TOTORO
 
-Finalement, flag="`TOTORO`"
+[IDOR detect](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/steganography-paths.png)
+[IDOR](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/challenge01.root-me.org.png)
+
