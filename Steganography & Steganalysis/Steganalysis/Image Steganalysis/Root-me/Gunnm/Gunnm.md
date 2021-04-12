@@ -28,7 +28,7 @@ De ce fait, bien que l'extension soit ici .zip, il se pourrait qu'il n'en soit p
 ![file xxd head tail](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/file%20xxd%20head%20tail.png)
 
 
-A ce niveau, le zoom-in s'avère fructueux en souvenir du descriptif du challenge [`Gunnm`](https://en.wikipedia.org/wiki/Battle_Angel_Alita) qui est une série qui se déroule dans un **futur post-apocalyptique et se concentre sur le personnage Alita** (comme pour dire qu'un zoom-in suffirait!) et boom ... le flag!
+A ce niveau, le zoom-in s'avère fructueux en souvenir du titre du challenge [`Gunnm`](https://en.wikipedia.org/wiki/Battle_Angel_Alita) qui est une série qui se déroule dans un **futur post-apocalyptique et se concentre sur le personnage Alita** (comme pour dire qu'un zoom-in suffirait!) et boom ... le flag!
 ![flag](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/flag.png)
 
 
@@ -46,6 +46,6 @@ Finalement, flag="`TOTORO`"
 2- Nous pouvons nous balader sur le serveur et avoir accès aux fichiers des autres challenges. Cette erreur de sécurité se rapporte aux menaces du [Top 10 OWASP 2013](https://owasp.org/www-pdf-archive/OWASP_Top_10_-_2013.pdf) suivantes: `A4 - Insecure Direct Object References` et `A7 - Missing Function Level Access Control` qui sont fusionneés en `A5 - Broken Access Control` dans le [Top 10 OWASP 2017](https://owasp.org/www-project-top-ten/)
 
 
-[IDOR detect](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/steganography-paths.png)
-[IDOR](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/challenge01.root-me.org.png)
+![IDOR detect](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/steganography-paths.png)
+![IDOR](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/challenge01.root-me.org.png)
 
