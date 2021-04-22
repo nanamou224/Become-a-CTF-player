@@ -2,7 +2,7 @@
 - Lien: Merci à [Eliphélé AGOSSOU](https://twitter.com/charliagossou) pour la mise à disposition. Consultez ses writeups sur son [Github repository](https://github.com/CharliGithub/CTF) 
 - Titre: Shit
 - Description: Néant  
-- [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Root-me/Gunnm/Ressources/ch1.png)
+- [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/File%20Steganalysis/HackerLab2019/Shit/Ressources/file)
 - Niveau de difficulté: 101
 
 
