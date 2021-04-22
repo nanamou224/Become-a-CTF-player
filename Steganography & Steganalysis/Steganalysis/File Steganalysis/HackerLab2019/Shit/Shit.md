@@ -38,7 +38,7 @@ A présent, nous savons que le fichier n'est pas anodin. Cherchons à savoir ce 
 - Méthode 1: Extraire les fichiers cachés avec binwalk   
 ![binwalk e](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/File%20Steganalysis/HackerLab2019/Shit/Ressources/binwalk%20tree.png)
 
-- Méthode 1: Extraire les fichiers cachés avec unzip  
+- Méthode 2: Extraire les fichiers cachés avec unzip  
 ![unzip tree cat](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/File%20Steganalysis/HackerLab2019/Shit/Ressources/unzip%20tree%20cat.png)
 
 
