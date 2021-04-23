@@ -24,7 +24,7 @@ Nous commençons par enegistrer le poème dans un fichier (ici `poeme.txt`). Ci-
 `cat poeme.txt | cut -c-1 | tr -d '\n'`  
 `grep -Po '^.' poeme.txt | tr -d '\n'`  
 
-![first letters selected](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Text%20Steganalysis/Ringzer0ctf/Victor%20you're%20hidding%20me%20something/Ressources/first%20letter%20selected.png)
+![first letters selected](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Text%20Steganalysis/Ringzer0ctf/Victor%20you're%20hidding%20me%20something/Ressources/first%20letters%20selected.png)
 
 #### Flag  
 Nous allons soumettre différentes combinaisons   
