@@ -33,7 +33,7 @@ root@intrusion:~# grep -Po '^.' poeme.txt | tr -d '\n'
 
 ![first letters selected](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Text%20Steganalysis/Ringzer0ctf/Victor%20you're%20hidding%20me%20something/Ressources/first%20letters%20selected.png)
 
-- Script bash
+- Script python
 ```bash @mdsh
 #! /usr/local/bin/python  -*- coding: UTF-8 -*-
 poeme = open('poeme.txt')
@@ -46,6 +46,11 @@ for vers in poeme:
 
 print flag
 ```
+ 
+```console
+root@intrusion:~# chmod ugo+rwx script
+root@intrusion:~# ./script
+``` 
 
 
 
