@@ -17,23 +17,23 @@ Nous avons affaire à un beau texte poétique composé de 7 [strophes](https://f
 Nous remarquons tout de suite que les premières lettres de la première strophe forment le mot-clé `FLAG`.
 ### Hypothèse :   
 Les 6 dernières strophes respectent la même structure. Ce qui nous permet de conclure que le flag est constitué, dans cet ordre, des premières lettres de chaque [vers](https://fr.vikidia.org/wiki/Vers).  
-- Méthode 1: Extraction manuelle  
+* Méthode 1: Extraction manuelle  
 Il suffit de noter dans un bloc note les premières lettres de chacun des vers : F, L, A, G, C, M, P, H, D, D, S, Q, N, U, C, C, P, N, N, S, O, Q, A, C, J, O, O et P.  Toutefois, cela peut vite être fastidieux dans le cas où le texte est long, d'où la méthode 2.  
-- Méthode 2: Extraction automatique
+* Méthode 2: Extraction automatique
 Nous commençons par enegistrer le poème dans un fichier (ici `poeme.txt`). Ci-dessous deux commandes permettant de les extraire  
-- Commande 1:  
+1. Commande 1:  
 ```console
 root@intrusion:~# cat poeme.txt | cut -c-1 | tr -d '\n'
 ```
 
-- Commande 2:  
+2. Commande 2:  
 ```console
 root@intrusion:~# grep -Po '^.' poeme.txt | tr -d '\n'  
 ``` 
 
 ![first letters selected](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Text%20Steganalysis/Ringzer0ctf/Victor%20you're%20hidding%20me%20something/Ressources/first%20letters%20selected.png)
 
-- Script python
+3. Script python
 ```bash @mdsh
 #! /usr/local/bin/python  -*- coding: UTF-8 -*-
 poeme = open('poeme.txt')
