@@ -2,7 +2,7 @@
 - Lien: https://ringzer0ctf.com/challenges/70
 - Titre: Victor you're hidding me something  
 - Description: Aucune
-- [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Image%20Steganalysis/Ringzer0ctf/You're%20lost%3F%20Use%20the%20map/Ressources/a892385285c917f18f0f942457b90c0a.zip)
+- [Fichiers du challenge](https://github.com/nanamou224/Become-a-CTF-player/blob/main/Steganography%20%26%20Steganalysis/Steganalysis/Text%20Steganalysis/Ringzer0ctf/Victor%20you're%20hidding%20me%20something/Ressources/poeme.txt)
 - Niveau de difficulté: 101
 
 
